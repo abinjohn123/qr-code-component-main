@@ -32,7 +32,7 @@ body {
 .container {
     background-color: var(--white);
     width: 28rem;
-    padding: 1.5rem;
+    padding: 1.3rem;
     border-radius: 1.5rem;
 
     display: grid;
@@ -44,4 +44,17 @@ body {
     justify-self: center;
     width: 100%;
     border-radius: 1rem;
+}
+
+.caption {
+    font-weight: 700;
+    font-size: 1.9rem;
+    text-align: center;
+    color: var(--dark-blue);
+}
+
+.helper {
+    color: var(--grayish-blue);
+    font-weight: 400;
+    text-align: center;
 }
