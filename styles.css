@@ -31,24 +31,31 @@ body {
 
 .container {
     background-color: var(--white);
-    width: 28rem;
-    padding: 1.3rem;
-    border-radius: 1.5rem;
+    width: 32rem;
+    padding: 1.6rem 1.6rem 2rem 1.6rem;
+    border-radius: 2rem;
 
     display: grid;
     grid-template-columns: 1fr;
-    row-gap: 2rem;
+    row-gap: 0.4rem;
 }
 
 .qr-code {
     justify-self: center;
     width: 100%;
-    border-radius: 1rem;
+    border-radius: 1.1rem;
+}
+
+.text-content {
+    padding: 1.2rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 1.6rem;
 }
 
 .caption {
     font-weight: 700;
-    font-size: 1.9rem;
+    font-size: 2rem;
     text-align: center;
     color: var(--dark-blue);
 }
